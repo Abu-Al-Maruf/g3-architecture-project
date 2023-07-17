@@ -206,16 +206,80 @@ nav ul li:hover a {
   font-weight: 500;
   line-height: 40px;
 }
-.feature-right img{
+.feature-right img {
   width: 100%;
 }
 
 
+/* facts section */
 
+#facts{
+  margin-top: 130px;
+  margin-bottom: 180px;
+}
+.some{
+  color: #131313;
+  font-size: 2.8125rem;
+  font-weight: 700;
+}
+.some-info{
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; 
+  width: 50%;
+}
+.facts-box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  text-align: center;
 
+}
+.facts-box .box{
+  border-radius: 8px;
+  border: 1px solid #FF900E;
+  padding: 45px 40px;
+}
+.facts-box .box h3{
+  color: #424242;
+  font-size: 2.8125rem;
+  font-weight: 600;
+}
+.facts-box .box span{
+  color:  #727272;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
 
+/* sponsor section  */
+#sponsor{
+  text-align: center;
+}
+#sponsor h2{
+  color:  #131313;
+  font-size: 2.8125rem;
+  font-weight: 700;
+}
+#sponsor p{
+  color:  #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  width: 45%;
+  margin: 10px auto;
 
-
+}
+.sponsor-box{
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sponsor-box img{
+  width: 165px;
+}
 
 
 
@@ -289,30 +353,29 @@ nav ul li:hover a {
   .quick-left {
     grid-template-columns: repeat(1, 1fr);
     margin-top: 40px;
-  
   }
   .quick-right {
     text-align: center;
   }
-  #quick-list{
+  #quick-list {
     padding: 0;
   }
   .quick-left img {
     width: 100%;
-}
-  #feature{
+  }
+  #feature {
     flex-direction: column;
   }
-  .ten-year{
+  .ten-year {
     left: 15px;
     bottom: 65px;
     padding: 25px 35px;
   }
-  .ten-year h3{
+  .ten-year h3 {
     font-size: 2.6rem;
   }
-  .ten-year p{
-    font-size: 1.3rem
+  .ten-year p {
+    font-size: 1.3rem;
   }
 }
 
@@ -357,25 +420,24 @@ nav ul li:hover a {
   }
   .quick-left img {
     width: 260px;
-}
+  }
 
-
-  #feature{
+  #feature {
     flex-direction: column;
   }
-  .ten-year{
+  .ten-year {
     left: -35px;
     bottom: 90px;
     padding: 35px 45px;
   }
-  .ten-year h3{
+  .ten-year h3 {
     font-size: 2.8rem;
   }
-  .ten-year p{
-    font-size: 1.4rem
+  .ten-year p {
+    font-size: 1.4rem;
   }
 
-  .feature-right{
+  .feature-right {
     margin-top: 60px;
   }
 }
